@@ -9,8 +9,6 @@ SRCS = ft_putchar.c \
 
 OBJS $(SRCS:.c=.o)
 
-RM = rm -f $(OBJS)
-
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
 
