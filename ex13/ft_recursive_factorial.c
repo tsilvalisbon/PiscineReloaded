@@ -6,13 +6,13 @@
 /*   By: tomandra <tomandra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:14:17 by tomandra          #+#    #+#             */
-/*   Updated: 2025/04/04 16:02:14 by tomandra         ###   ########.fr       */
+/*   Updated: 2025/04/09 01:51:52 by tomandra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_recursive_factorial(int nb)
 {
-	if (nb < 0)
+	if (nb < 0 || nb > 12)
 	{
 		return (0);
 	}

@@ -27,9 +27,9 @@ int	ft_iterative_factorial(int nb)
 	return (result);
 }
 
-#include <stdio.h>
+/* #include <stdio.h>
 int main()
 {
 	int nb = 13;
 	printf("The factorial of %d is: %d\n", nb, ft_iterative_factorial(nb));
-}
+} */
